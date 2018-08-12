@@ -30,6 +30,8 @@ if ( n<0 | floor(n)~=n )
     error('Invalid n');
 end %if
 
+image=rgb2gray(image);
+
 % image's size:
 [rows, cols] = size(image);
 
